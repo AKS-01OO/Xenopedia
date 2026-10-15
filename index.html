@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xenopedia</title>
+    <meta
+      name="description"
+      content="Xenopedia — The Global Encyclopedia of Extraterrestrial Life"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="topbar__inner container">
+          <a class="brand" href="#/">
+            <span class="brand__mark">X</span>
+            <span class="brand__text">Xenopedia</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="main-nav" aria-label="Main navigation">
+            <a data-route href="#/">Home</a>
+            <a data-route href="#/encyclopedia">Encyclopedia</a>
+            <a data-route href="#/universes">Universes</a>
+            <a data-route href="#/planets">Planets</a>
+            <a data-route href="#/compare">Compare Aliens</a>
+            <a data-route href="#/simulator">Colony Simulator</a>
+            <a data-route href="#/graph">Knowledge Graph</a>
+            <a data-route href="#/rankings">Rankings</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="app" class="app" aria-live="polite"></main>
+
+      <footer class="site-footer">
+        <div class="container footer__inner">
+          <p>© 2026 Xenopedia Research Archive</p>
+          <p>Illustrative space imagery via <a href="https://unsplash.com/license" target="_blank" rel="noreferrer">Unsplash</a> · No official franchise artwork</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/imported-data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

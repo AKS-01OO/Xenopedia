@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title">
+  <title id="title">Original ember alien illustration</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#231638"/><stop offset="1" stop-color="#11162c"/></linearGradient>
+    <linearGradient id="body" x2=".9" y2="1"><stop stop-color="#ffe774"/><stop offset=".48" stop-color="#ff7b38"/><stop offset="1" stop-color="#d53054"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ffb542" stop-opacity=".65"/><stop offset="1" stop-color="#ff7b38" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="720" height="420" rx="30" fill="url(#bg)"/>
+  <circle cx="360" cy="218" r="175" fill="url(#glow)"/>
+  <path d="M0 354 94 314l72 27 68-46 83 44 73-30 78 35 86-48 78 42 88-47v129H0z" fill="#161323"/>
+  <path d="m314 298-40 57 47-22 24-48m66 13 38 55-49-20-22-43" fill="#ff8a37"/>
+  <path d="M307 289c-19-51-12-111 17-153l36-53 29 54c34-8 70 9 85 40l-13 39 30 35-43 58c-34 45-103 47-141 4z" fill="url(#body)" stroke="#ffd86b" stroke-width="5"/>
+  <path d="m324 174-51-36 10 74 31 23m147-63 47-33-11 72-31 20" fill="#ef523b" stroke="#ffd86b" stroke-width="5"/>
+  <path d="M328 204c18-18 36-18 53 0-18 14-36 14-53 0zm83 0c18-18 36-18 53 0-18 14-36 14-53 0z" fill="#fff4cb"/>
+  <path d="m377 239 19-7 18 7-18 13z" fill="#8b193d"/>
+  <path d="m350 260 17 13 22-6 19 7 17-13" fill="none" stroke="#7e2442" stroke-width="6" stroke-linecap="round"/>
+  <path d="m301 319-77 27 18 24 85-30m134-18 77 28-18 24-85-31" fill="#d94343"/>
+  <g fill="#ffe88b"><circle cx="145" cy="93" r="3"/><circle cx="566" cy="104" r="4"/><circle cx="594" cy="247" r="3"/><circle cx="109" cy="233" r="4"/></g>
+</svg>

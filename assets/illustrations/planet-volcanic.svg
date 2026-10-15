@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title">
+  <title id="title">Illustrated volcanic planet</title>
+  <defs>
+    <linearGradient id="space" x2="1" y2="1"><stop stop-color="#131a38"/><stop offset="1" stop-color="#382044"/></linearGradient>
+    <radialGradient id="planet" cx=".35" cy=".28"><stop stop-color="#ffb45b"/><stop offset=".55" stop-color="#ba443e"/><stop offset="1" stop-color="#431e3d"/></radialGradient>
+    <clipPath id="clip"><circle cx="363" cy="216" r="132"/></clipPath>
+  </defs>
+  <rect width="720" height="420" rx="30" fill="url(#space)"/>
+  <circle cx="363" cy="216" r="139" fill="#ff8554" opacity=".12"/>
+  <circle cx="363" cy="216" r="132" fill="url(#planet)"/>
+  <g clip-path="url(#clip)" fill="none" stroke="#ffcb67" stroke-linecap="round">
+    <path d="M235 265q61-51 119-10t135-25" stroke-width="15"/>
+    <path d="M265 184q52 37 90-16t102 14" stroke-width="9"/>
+    <path d="M300 334q28-74 53-107t21-131" stroke-width="6"/>
+    <path d="M386 340q-25-54 14-97t67-89" stroke-width="5"/>
+  </g>
+  <path d="m293 125 29-31 22 29m34 210 17 27m75-82 30-8" fill="none" stroke="#ffda7e" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#e8eeff"><circle cx="123" cy="100" r="4"/><circle cx="568" cy="100" r="3"/><circle cx="581" cy="307" r="4"/><circle cx="161" cy="324" r="3"/></g>
+</svg>

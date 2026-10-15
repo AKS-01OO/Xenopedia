@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "name": "Pikachu",
+      "species": "Pikachu",
+      "home_planet": "Alola",
+      "abilities": "Thunder Shock, Quick Attack, Static",
+      "description": "An electric creature known for agility and recognizability."
+    },
+    {
+      "name": "Mewtwo",
+      "species": "Mewtwo",
+      "home_planet": "Unknown",
+      "abilities": "Psychic power, Energy bursts, Resilience",
+      "description": "A high-intelligence genetic anomaly recognized across the franchise."
+    }
+  ]
+}

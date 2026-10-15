@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title">
+  <title id="title">Original verdant alien illustration</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10343a"/><stop offset="1" stop-color="#15243a"/></linearGradient>
+    <linearGradient id="skin" x2=".8" y2="1"><stop stop-color="#c8ef9b"/><stop offset=".5" stop-color="#62bd9c"/><stop offset="1" stop-color="#3b8392"/></linearGradient>
+  </defs>
+  <rect width="720" height="420" rx="30" fill="url(#bg)"/>
+  <circle cx="556" cy="90" r="63" fill="#b2e98a" opacity=".14"/>
+  <path d="M0 335q100-41 196 7t190-1 188 0 146-21v100H0z" fill="#102a30"/>
+  <path d="M91 349V185m0 62-44-46m44 70 52-57m451 133V151m0 77-46-54m46 80 52-60" stroke="#3c8d6a" stroke-width="15" stroke-linecap="round"/>
+  <path d="M300 288 240 365l98-27 31-54m48 5 63 76-98-24-34-52" fill="#4d997d"/>
+  <path d="m281 223 24-69 46 17 21-70 34 68 49-26 3 76 43 28-37 66-68 39-79-34-48-64z" fill="url(#skin)" stroke="#d5f2ad" stroke-width="5" stroke-linejoin="round"/>
+  <path d="m299 200 38-10 19 16-43 8m88-11 34-10 18 14-43 9" fill="#183a4a"/>
+  <path d="m359 230 22-7 19 10-19 12z" fill="#27636a"/>
+  <path d="m338 258 26 6 19-4 22 8" fill="none" stroke="#d8f2bb" stroke-width="5" stroke-linecap="round"/>
+  <path d="M310 169q-33-41-15-71 31 23 36 65m101 2q37-42 24-72-34 22-43 61" fill="#8cc77d" stroke="#d5f2ad" stroke-width="4"/>
+  <g fill="#c4f1a4"><circle cx="179" cy="112" r="5"/><circle cx="540" cy="121" r="4"/><circle cx="586" cy="266" r="5"/><circle cx="147" cy="268" r="4"/></g>
+</svg>

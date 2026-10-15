@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title">
+  <title id="title">Original electric creature illustration</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#192743"/><stop offset="1" stop-color="#31234a"/></linearGradient>
+    <linearGradient id="fur" x2=".8" y2="1"><stop stop-color="#fff2a6"/><stop offset=".55" stop-color="#f4c856"/><stop offset="1" stop-color="#ed8d4b"/></linearGradient>
+  </defs>
+  <rect width="720" height="420" rx="30" fill="url(#bg)"/>
+  <circle cx="359" cy="210" r="147" fill="#ffe572" opacity=".08"/>
+  <path d="M0 349q134-58 256-3t221-7 243-10v91H0z" fill="#17182d"/>
+  <path d="m477 257 96-60-31 91 66 37-111 15-46-35" fill="#f3bf4e" stroke="#fff1a1" stroke-width="5" stroke-linejoin="round"/>
+  <path d="m294 280-65 73 101-26 34-50m47 0 59 73-97-23-31-50" fill="#dc9c43"/>
+  <path d="m286 212 21-62 48 22 22-57 39 59 55-21-2 70 38 30-41 65-75 38-76-40-47-62z" fill="url(#fur)" stroke="#fff0a1" stroke-width="5" stroke-linejoin="round"/>
+  <path d="m305 208 36-10 20 15-42 8m80-10 37-10 17 15-42 8" fill="#263c68"/>
+  <path d="m314 209 24-6 17 11-30 6m66-6 25-7 14 12-30 5" fill="#e8fcff"/>
+  <path d="m363 235 20-8 19 11-20 12z" fill="#a94f53"/>
+  <path d="m340 261 24 6 19-5 22 8" fill="none" stroke="#a45e42" stroke-width="5" stroke-linecap="round"/>
+  <path d="m304 166-33-44 17 63m133-7 40-56-21 69" fill="#f0c34d" stroke="#fff0a1" stroke-width="5" stroke-linejoin="round"/>
+  <path d="m190 139 23 32-19 29 34-3 18 33 6-39 33-11-32-12-5-36-18 29zM541 113l19 25-15 23 28-2 14 26 5-31 26-9-24-10-4-29-14 23z" fill="#8deaff"/>
+  <g fill="#fff2a6"><circle cx="121" cy="86" r="4"/><circle cx="584" cy="286" r="4"/><circle cx="156" cy="276" r="3"/></g>
+</svg>

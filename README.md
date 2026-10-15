@@ -1,88 +1,97 @@
-# Xenopedia
+## Team Name
+Alienativ
 
-Xenopedia is a fictional multiverse encyclopedia for extraterrestrial life, species, planets, and civilizations. The project is designed as a hackathon-ready research interface with a local fallback data model, searchable archive, comparison engine, colony simulator, knowledge graph, and ranking dashboard.
+## Team Members
+- **Member 1:** Adarsh K S
+- **Member 2:** Aaryan Jayachandran
+
+## Hosted Project Link
+https://xenopedia-five.vercel.app/
+
+## Project Description
+Xenopedia is an interactive multiverse encyclopedia that organizes information about fictional alien species, planets, and civilizations. It allows users to explore species profiles, compare characteristics, analyze hypothetical habitat compatibility, and discover relationships between entities through an interconnected knowledge platform.
+
+## The Problem Statement
+Information about fictional extraterrestrial species, their biological characteristics, abilities, and environmental requirements is scattered across different sources. Comparing species or determining whether they could survive in unfamiliar planetary environments can be difficult without a centralized platform.
+
+## The Solution
+Xenopedia provides a centralized encyclopedia with searchable species profiles, an alien comparison engine, a habitat compatibility simulator, a knowledge graph, and a cosmic rankings dashboard. It aims to make exploring extraterrestrial worlds easier through structured data, interactive tools, and AI-assisted explanations.
+
+## Technical Details
+
+### Technologies / Components Used
+
+**For Software:**
+- AI-assisted web application
+- Interactive encyclopedia and analysis platform
+- Cloud database and server-side API integration, where configured
+
+**Languages Used:**
+- TypeScript
+- JavaScript
+- HTML
+- CSS
+- SQL
+
+**Frameworks Used:**
+- React
+- Vite
+- Tailwind CSS
+
+**Libraries:**
+- Lucide React
+- Supabase JavaScript Client
+
+**Tools Used:**
+- Google Antigravity
+- Google Gemini API
+- Supabase
+- GitHub
+- Vercel
+- Visual Studio Code
 
 ## Features
 
-- Global search across aliens, planets, species, and universes
-- Encyclopedia pages for 20+ canon-inspired entries
-- Seven-universe explorer with immersive cards
-- Alien comparison engine with live-updating profile similarity, data coverage, and a transparent ability-based power-points estimate
-- Colony compatibility simulator with transparent rules
-- Knowledge graph relationship view
-- Rankings dashboard with demo activity data
-- Illustrative space imagery in the homepage and universe explorer, plus original local alien-creature and planet artwork in article, universe, ranking, and planet views
-- Local data fallback when external services are unavailable
+- **AI-Assisted Species Organization:** Helps categorize hypothetical extraterrestrial species and generate descriptive tags from available information.
 
-## Images and licensing
+- **Species Encyclopedia:** Organizes species profiles, biological characteristics, environmental requirements, and adaptations.
 
-The interface uses general space photographs hosted by Unsplash at `images.unsplash.com` and original SVG illustrations stored in `assets/illustrations/`. These are decorative visuals only and are not official artwork or likenesses from the represented franchises. All illustrations have descriptive alt text. Unsplash images are hidden automatically if the image host is unavailable; the cards retain their gradient fallback backgrounds. See the [Unsplash License](https://unsplash.com/license).
+- **Smart Search and Filtering:** Helps users find species based on available characteristics, such as temperature tolerance, gravity, atmospheric requirements, and habitat.
 
-## Comparison scoring
+- **Alien Comparison Engine:** Compares selected species using documented characteristics and highlights similarities and differences.
 
-The comparison controls update results as soon as either entry changes. Profile similarity compares six documented fields and excludes unknown values. The separate **Xenopedia power points** estimate awards up to 20 points for each capability category supported by an entry's listed abilities: offense, defense, mobility, energy/special powers, and utility. This score represents breadth of documented capabilities; it is not an official franchise measurement, canon power level, or guaranteed winner in a fight. Source-specific figures such as Pokémon battle stats or Dragon Ball power levels are not converted into cross-universe points.
+- **Habitat Compatibility Analysis:** Evaluates whether a hypothetical species could survive in a target planetary environment using available biological data and environmental compatibility rules.
 
-## Run locally
+- **AI Research Assistant:** Supports natural-language questions and explains species information or compatibility results when AI integration is configured.
 
-Python is already available in this environment, so the app can be served without Node or package installation:
+- **Data Quality Management:** Helps identify missing information, incomplete records, and potential duplicate entries.
 
-```bash
-cd "c:\Users\ADARSH.K.S\Desktop\vs code"
-python -m http.server 8000
-```
+- **Planetary Environment Database:** Organizes planetary environmental information for habitat compatibility comparisons.
 
-Then open:
+- **Interactive Dashboard:** Presents species statistics, encyclopedia information, and compatibility results.
 
-```text
-http://localhost:8000
-```
+- **Knowledge Graph:** Displays relationships between species, planets, and other entities based on available data.
 
-## Project structure
+- **Cosmic Rankings:** Organizes species rankings using the application's defined scoring system.
 
-- `index.html` — app shell and navigation
-- `assets/app.js` — application logic and route rendering
-- `assets/data.js` — shared seed model and data store
-- `assets/styles.css` — visual design and responsive layout
-- `scripts/import_dataset.py` — imports extracted Kaggle records and local image references
-- `data/imports/` — folder for downloaded Kaggle files
+- **Database Integration:** Supports structured data storage and retrieval through Supabase when the database is configured and connected.
 
-## Supabase configuration
+- **Responsive Interface:** Provides a space-inspired interface designed for desktop and mobile screens.
 
-The app is intentionally built to run without Supabase credentials. If you later connect a real database, add a `.env` file with placeholders such as:
+## Expected Impact
+Xenopedia makes extraterrestrial information easier to explore by combining an encyclopedia, comparison tools, environmental analysis, and connected knowledge into one interactive platform. It also demonstrates how AI-assisted organization and transparent rule-based reasoning can improve exploration of hypothetical alien ecosystems.
 
-```env
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key
-```
+## Future Enhancements
+- Expand the encyclopedia with additional species and planetary datasets.
+- Improve AI-powered research and explanation capabilities.
+- Add more environmental parameters to the habitat compatibility engine.
+- Introduce source references and data confidence indicators.
+- Expand the knowledge graph and interactive visualization features.
+- Improve database integration and support community contributions.
 
-The `assets/data.js` file acts as the fallback local database. A real Supabase-backed version should replace this with persistent queries and row-level security policies.
+- <img width="1885" height="897" alt="image" src="https://github.com/user-attachments/assets/1038103b-7779-4a5e-b9f7-636ee13ad3b8" />
+- <img width="1062" height="771" alt="image" src="https://github.com/user-attachments/assets/0fc9e017-8e27-4652-a474-f719130e0eb2" />
+- <img width="817" height="710" alt="image" src="https://github.com/user-attachments/assets/8b4c81d2-42fe-458f-a193-f41659568c7f" />
 
-## Kaggle datasets and images
 
-The importer supports the four requested Kaggle sources: [Ben 10 Aliens](https://www.kaggle.com/datasets/asucse2021/ben-10-aliens), [Pokémon Images and Types](https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types), [Top 15 Anime Male Characters](https://www.kaggle.com/datasets/tarundalal/top-15-anime-main-charcters), and [Star Wars Characters](https://www.kaggle.com/datasets/adamridene/star-wars-characters). Follow [`data/imports/README.md`](data/imports/README.md) to download with Kaggle CLI and import the extracted folders. Downloaded files are kept in the Git-ignored `data/imports/kaggle/` directory. Imported records are merged by universe and name, and the chosen local dataset image appears in cards and entry pages with the original illustration as a fallback.
 
-The Dragon Ball source covers several anime franchises; only Goku and Vegeta are imported from it. The importer stores source dataset/license/record metadata and records that canon was not independently verified.
-
-Kaggle's dataset-level license field does not establish permission for underlying franchise artwork. Review applicable rights before publishing or redistributing dataset images. The project has not downloaded or imported any of the four Kaggle datasets unless you run the steps in the import guide locally; the existing sample files are synthetic examples, not source dataset records.
-
-For static deployment, publish the generated `assets/imported-data.js` and only the image files you have confirmed you may redistribute; otherwise retain the local SVG fallbacks.
-
-## Important limitations
-
-- No live Kaggle or Supabase connection is configured in this local build. Kaggle records and images are imported locally from files you download.
-- This is a fictional educational project and should not be treated as a real biological safety model.
-- The ranking system uses demo data and is labeled as such within the UI.
-
-## Deployment
-
-This static app is already suitable for Vercel static hosting:
-
-1. Push the project to a Git repository.
-2. Import the folder into Vercel as a static site.
-3. Ensure the build command is blank or omitted for static hosting.
-4. Use the root folder as the app directory.
-5. Publish the project with the default static output.
-
-## Licenses and sourcing
-
-When using real Kaggle datasets, verify the license before public deployment. The app stores source metadata, but it does not claim that any external dataset has been imported unless it has been verified in your environment.

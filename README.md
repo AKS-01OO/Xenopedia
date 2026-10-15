@@ -8,6 +8,8 @@ Alienativ
 ## Hosted Project Link
 https://xenopedia-five.vercel.app/
 
+- <img width="1885" height="897" alt="image" src="https://github.com/user-attachments/assets/1038103b-7779-4a5e-b9f7-636ee13ad3b8" />
+
 ## Project Description
 Xenopedia is an interactive multiverse encyclopedia that organizes information about fictional alien species, planets, and civilizations. It allows users to explore species profiles, compare characteristics, analyze hypothetical habitat compatibility, and discover relationships between entities through an interconnected knowledge platform.
 
@@ -89,7 +91,7 @@ Xenopedia makes extraterrestrial information easier to explore by combining an e
 - Expand the knowledge graph and interactive visualization features.
 - Improve database integration and support community contributions.
 
-- <img width="1885" height="897" alt="image" src="https://github.com/user-attachments/assets/1038103b-7779-4a5e-b9f7-636ee13ad3b8" />
+
 - <img width="1062" height="771" alt="image" src="https://github.com/user-attachments/assets/0fc9e017-8e27-4652-a474-f719130e0eb2" />
 - <img width="817" height="710" alt="image" src="https://github.com/user-attachments/assets/8b4c81d2-42fe-458f-a193-f41659568c7f" />
 

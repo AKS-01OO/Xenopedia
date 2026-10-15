@@ -1,5 +1,5 @@
 ## Team Name
-#Alienativ
+Alienativ
 
 ## Team Members
 - **Member 1:** Adarsh K S

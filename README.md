@@ -2,8 +2,8 @@
 Alienativ
 
 ## Team Members
-- **Member 1:** Adarsh K S  - S5 CSE A
-- **Member 2:** Aaryan Jayachandran  - S5 CSE A
+- **Member 1:** Adarsh K S            - S5 CSE A
+- **Member 2:** Aaryan Jayachandran   - S5 CSE A
 
 ## Hosted Project Link
 https://xenopedia-five.vercel.app/
